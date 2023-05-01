@@ -1,0 +1,39 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
+.landing {
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+}
+
+.jumbo {
+    margin: auto;
+    margin-top: 15vh;
+    text-align: left;
+    width: 60%;
+}
+
+.jumbo h1 {
+    font-size: 80px;
+    padding: auto;
+    margin: auto;
+}
+
+.jumbo h2 {
+    font-size: 40px;
+    padding: auto;
+    margin: auto;
+    color: rgb(0, 29, 197, 255);
+}
+
+.jumbo-img {
+    height: 600px;
+    float: right;
+    margin: 0;
+    margin-right: 50px;
+}
