@@ -22,7 +22,7 @@
     width: 60%;
 }
 
-.jumbo h1 {
+h1 {
     font-size: 80px;
     padding: auto;
     margin: auto;
@@ -35,12 +35,14 @@
     color: rgb(0, 29, 197, 255);
 }
 
-.jumbo p {
+p {
     padding: 0;
     padding-top: 10px;
     margin: 0;
     font-size: 20px;
     line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .jumbo-img {
@@ -59,16 +61,10 @@
 
 .why {
     margin: auto;
-    margin-top: 60px;
+    margin-top: 100px;
     text-align: center;
     width: 60%;
     float: center;
-}
-
-.why h1 {
-    font-size: 80px;
-    padding: auto;
-    margin: auto;
 }
 
 .why ul {
@@ -83,4 +79,58 @@
     padding-bottom: 25px;
     float: center;
     display: block;
+}
+
+.why h1 {
+    font-size: 80px;
+    padding: auto;
+    margin: auto;
+
+}
+
+/* links section */
+
+.links-landing {
+    height: 90vh;
+    width: 100vw;
+}
+
+.links {
+    margin: auto;
+    margin-top: 60px;
+    text-align: right;
+    width: 60%;
+    float: center;
+}
+
+.links h2 {
+    font-size: 40px;
+    padding: auto;
+    margin: auto;
+    color: rgb(162, 22, 23);
+}
+
+.link-img {
+    height: 400px;
+    margin: 0;
+    padding-bottom: 25px;
+    float: left;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+.links p {
+    padding: 0;
+    padding-top: 10px;
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: right;
+    text-justify: inter-word;
+}
+
+/* Footer */
+
+footer h2 {
+    text-align: center;
 }
