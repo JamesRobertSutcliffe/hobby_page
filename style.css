@@ -60,7 +60,7 @@
 .why {
     margin: auto;
     margin-top: 60px;
-    /* text-align: left; */
+    text-align: center;
     width: 60%;
     float: center;
 }
@@ -71,8 +71,10 @@
     margin: auto;
 }
 
-.why li {
+.why ul {
     font-size: 20px;
+    display: inline-block;
+    text-align: left;
 }
 
 .why-img {
